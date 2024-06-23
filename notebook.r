@@ -1,25 +1,23 @@
 # Load the necessary packages
 install.packages("Metrics")
+if (!requireNamespace("fastDummies", quietly = TRUE)) {
+  install.packages("fastDummies")
+}
+
+# Load libraries
 library(tidyverse)
 library(yardstick)
 library(Metrics)
+library(gridExtra) # Grids for plots
+library(caret) # ML
+library(glue) # String interpolation
+library(fastDummies) # OneHot Encoding
 
 # Load the data
 hd_data <- read.csv("Cleveland_hd.csv")
 
 # Inspect the first five rows
 head(hd_data, 5)
-
-# Start coding here...add as many cells as you like!
-
-### Additional libraries ###
-library(gridExtra) # Grids for plots
-library(caret) # ML
-library(glue) # String interpolation
-if (!requireNamespace("fastDummies", quietly = TRUE)) {
-  install.packages("fastDummies")
-}
-library(fastDummies)
 
 ### EDA ###
 
