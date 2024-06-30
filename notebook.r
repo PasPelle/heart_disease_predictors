@@ -200,14 +200,6 @@ grid.arrange(grobs = categrorical_plots, ncol = 3)
 # Print results
 print(categorical_feature_p_values)
 
-    
-# Create the plot
-cat_plot <- ggplot(hd_data_2, aes(x = factor(class), fill = factor(cp))) + 
-geom_bar(position = "dodge") + 
-labs(title = paste("Distribution of cp", "by Class"), x = "Class", y = "Count") + 
-theme_minimal()
-print(cat_plot)
-
 
 ### Select the top 3 predictors related to heart disease ###
 
