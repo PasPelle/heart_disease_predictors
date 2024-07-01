@@ -1,9 +1,4 @@
-Millions of people develop some sort of heart disease every year, and heart disease is the biggest killer of both men and women in the United States and around the world. Statistical analysis has identified many risk factors associated with heart disease, such as age, blood pressure, total cholesterol, diabetes, hypertension, family history of heart disease, obesity, lack of physical exercise, and more.
-
-In this project, you will run statistical tests and models using the Cleveland heart disease dataset to assess one particular factor -- the maximum heart rate one can achieve during exercise and how it is associated with a higher likelihood of getting heart disease.
-
-Examining how heart rate responds to exercise along with other factors such as age, gender, the maximum heart rate achieved may reveal abnormalities that could be indicative of heart disease.
-
+The dataset used for this analysis is the Cleveland Heart Disease dataset from the UCI repository. The goal is to classify whether an individual has heart disease (1) or not (0). By applying logistic regression to the top three features most strongly associated with heart disease, I achieved an accuracy of 83%.
 
 ## The Data
 
